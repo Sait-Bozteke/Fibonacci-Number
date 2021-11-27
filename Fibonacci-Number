@@ -1,6 +1,7 @@
 a, b = 1, 1
-list-fib = []
+list_fib = []
+
 while a <= 55:
-list-fib.append(a)
-a, b = b, a+b
-print(list-fib)
+    list_fib.append(a)
+    a, b = b, a+b
+print(list_fib)
